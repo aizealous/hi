@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+img {width: 20%;}
+h2 {
+   color: chocolate;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: medium;
+   background-color: rgb(137, 129, 14);
+   border-radius: 10px;
+   max-width: fit-content;
+   margin:auto;
+   padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-weight:bold;
+}
+   
+.tooltip {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.tooltiptext {
+   font-size:large;
+   width: auto;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgb(0, 0, 0);
+}
+
+.card {
+border-radius: 10px;
+background-color: rgb(241, 227, 118);
+width: 40%;
+margin:auto;
+padding: auto;
+font-size: large;
+color: rgb(157, 112, 0);}
+
+p {
+   font-weight: bold;
+   color: #ce7941;
+}
+
+body {
+   background-color: rgb(206, 213, 171);
+
+}
+
+span {
+   font-size:20px;
+}
+
+</style>
+
+   <body style="text-align:center;">
+
+   <!-- <h2>haz click sobre la imagen :)</h2> -->
+   <img src="./cat.png" alt="grrrr grrrr click acá">
+
+
+   <div class= "card">
+      <p><span>&#128049</span> para traducir haz click sobre cada línea: <span>&#128049</span></p>
+         <div class="tooltip">Miau Miiiau grrr miau uuu 
+            <span class="tooltiptext">Espero te guste este presente para desgustar,</span>
+         </div>
+         <br>
+         <div class="tooltip">meeua miau meau meeauuu uau  meau
+            <span class="tooltiptext">nada ostentoso pero el cacao es de una región reconocida,</span>
+         </div>
+         <br>
+         <div class="tooltip">meu uuu grrr grr uau mieau
+            <span class="tooltiptext">espero sean de buen gusto con un mate</span>
+         </div>
+         <br>
+         <div class="tooltip">miau mieau miauuu miu 
+            <span class="tooltiptext">sería bueno saber cuál te gustó más</span>
+         </div>
+         <br>
+         <div class="tooltip">miua miu miau grrr grrrr 
+            <span class="tooltiptext">y si no fue ninguno, no hay de otra jajaja ;)<span>&#128049</span></span> 
+         </div>
+         <br>
+
+   </div>
+
+   </body>
+</html>
+
+
+
+
